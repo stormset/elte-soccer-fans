@@ -1,0 +1,62 @@
+#navbar_top.fixed-top {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1), 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-custom {
+    background: #ffffff;
+    max-height: 64px;
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(12,144,78, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-custom .navbar-toggler {
+    border-color: rgb(12, 144, 78);
+}
+
+.navbar-custom .primary {
+    background: #13c36b;
+}
+
+.navbar-custom .primary:hover {
+    background: #0c904e;
+}
+
+.navbar-custom .secondary {
+    background: #abd58b;
+}
+
+.navbar-custom .secondary:hover {
+    background: #7eaf5b;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background: #85a569;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 8px 16px 8px 16px;
+    margin: 20px 20px 0 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1), 0 6px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.border-only {
+    font-family: 'Nunito', sans-serif;
+    background: transparent !important;
+    color: #383838 !important;
+    border: 1px solid #abd58b;
+    border-radius: 2rem;
+    padding: 5px 40px 0 40px !important;
+    box-shadow: none;
+    cursor: default;
+}
+
+@media (max-width: 767px) {
+    .navbar-custom, .navbar-header, .navbar_top {
+        display: none !important;
+    }
+}

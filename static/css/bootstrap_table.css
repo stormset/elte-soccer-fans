@@ -1,0 +1,108 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.bdt thead th {
+    cursor: pointer;
+}
+
+.bdt .sort-icon {
+    width: 10px;
+    display: inline-block;
+    padding-left: 5px;
+}
+
+.table-footer .form-horizontal .control-label {
+    text-align: left;
+    margin: 0 15px;
+}
+
+.table-footer .pagination {
+    margin: 0 15px;
+}
+
+.table-footer .pagination li:not(.active, .disabled) {
+    cursor: pointer;
+}
+
+.container {
+	background: #fff;
+    width: 60%;
+}
+
+.bdt > thead > tr > th, .bdt > tbody > tr > td {
+	font-size: 13px;
+}
+
+.bdt tr:last-child td, .bdt tr:last-child th {
+    border-bottom: 1px solid #f0f1f5;
+}
+
+.bdt > tbody > tr > td, .bdt > tbody > tr > th, .bdt > tfoot > tr > td, .bdt > tfoot > tr > th, .bdt > thead > tr > td, .bdt > thead > tr > th {
+    border-color: #e6e7ed;
+    padding: 17px 25px;
+}
+
+.form-control {
+	border-color: #4e5e3f;
+    border-radius: 1rem;
+    box-shadow: none;
+    font-weight: 400;
+    height: 36px;
+    margin: 16px;
+}
+
+.form-group {
+    width: 200px;
+    margin-left: auto;
+    margin-right: 42px;
+    margin-top: -32px;
+}
+
+.pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus {
+    border-color: #fff;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #f5f9f0;
+ }
+
+ .table-striped > tbody > tr:nth-child(2n+1):hover > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #dedfde;
+ }
+
+
+.pagination > li {
+    display: inline-block;
+    margin: 0 2px;
+    user-select: none;
+}
+
+.pagination > li > a, .pagination > li > span {
+    border: none;
+}
+
+.pagination > li > a, .pagination > li > span {
+    background: #ebecf2;
+    padding: 0;
+    text-align: center;
+    color: #333;
+}
+
+.pagination > li.active > a {
+    background: #bed5a7 !important;
+}
+
+
+.pagination > li.active > a, .pagination > li.active > span {
+    font-weight: 700;
+}
+
+.noclick {
+    pointer-events: none;
+    user-select: none;
+ }
+
+@media (max-width: 767px) {
+    .form-group {
+        margin: 0 auto;
+    }
+}

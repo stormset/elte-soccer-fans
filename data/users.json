@@ -1,0 +1,16 @@
+{
+    "61c130d74b67e": {
+        "email": "admin@elstadion.hu",
+        "username": "admin",
+        "password": "$2y$10$j3xSj6w\/ZmL7\/B.EzUsDs.qqvl4wFyPmFmeg0bOQDdCZsYo5f1yWa",
+        "role": "admin",
+        "id": "61c130d74b67e"
+    },
+    "61c224c149271": {
+        "email": "testuser@test.com",
+        "username": "test",
+        "password": "$2y$10$YAlfdJ7wWzEeeClflJlU8OeAZpZWQjNgptqaqX8FrHRdvGcIS7qWO",
+        "role": "basic",
+        "id": "61c224c149271"
+    }
+}
